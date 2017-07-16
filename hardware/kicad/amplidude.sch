@@ -69,9 +69,7 @@ F 3 "" H 5400 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 4950 5400 5400
-Wire Wire Line
-	5400 5400 5400 5450
+	5400 4950 5400 5450
 $Comp
 L GND #PWR?
 U 1 1 596AF677
@@ -156,14 +154,8 @@ Wire Wire Line
 	3950 4050 3950 4100
 Wire Wire Line
 	3950 4100 3900 4100
-Text GLabel 3600 3900 0    60   Input ~ 0
-L_IN
-Text GLabel 3600 4100 0    60   Input ~ 0
-R_IN
-Text GLabel 3600 3750 0    60   Input ~ 0
-MUTE
 Wire Wire Line
-	3600 3750 4500 3750
+	2750 3750 4500 3750
 $Comp
 L C C3
 U 1 1 596AF98E
@@ -207,9 +199,7 @@ $EndComp
 Wire Wire Line
 	6150 4300 6300 4300
 Wire Wire Line
-	6150 4500 6750 4500
-Wire Wire Line
-	6750 4500 6850 4500
+	6150 4500 6850 4500
 Wire Wire Line
 	6150 3650 6300 3650
 Wire Wire Line
@@ -242,9 +232,7 @@ Wire Wire Line
 	6750 4300 6600 4300
 Connection ~ 6750 4500
 Wire Wire Line
-	6600 3650 6750 3650
-Wire Wire Line
-	6750 3650 6850 3650
+	6600 3650 6850 3650
 $Comp
 L C C15
 U 1 1 596B0A5F
@@ -268,19 +256,11 @@ F 3 "" H 7250 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7150 4500 7250 4500
-Wire Wire Line
-	7250 4500 7500 4500
-Wire Wire Line
-	7500 4500 7700 4500
+	7150 4500 7700 4500
 Wire Wire Line
 	7250 4500 7250 4650
 Wire Wire Line
-	7150 3650 7250 3650
-Wire Wire Line
-	7250 3650 7500 3650
-Wire Wire Line
-	7500 3650 7700 3650
+	7150 3650 7700 3650
 Wire Wire Line
 	7250 3650 7250 3750
 $Comp
@@ -295,13 +275,9 @@ F 3 "" H 7250 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 4950 7250 5000
+	7250 4950 7250 5050
 Wire Wire Line
-	7250 5000 7250 5050
-Wire Wire Line
-	7250 4050 7250 4100
-Wire Wire Line
-	7250 4100 7250 4150
+	7250 4050 7250 4150
 $Comp
 L R R3
 U 1 1 596B0CDA
@@ -335,9 +311,7 @@ Connection ~ 7250 3650
 Wire Wire Line
 	7500 4050 7500 4100
 Wire Wire Line
-	7250 4100 7500 4100
-Wire Wire Line
-	7500 4100 8200 4100
+	7250 4100 8200 4100
 $Comp
 L CP1 C17
 U 1 1 596B1478
@@ -362,14 +336,6 @@ F 3 "" H 7850 4500 50  0001 C CNN
 $EndComp
 Connection ~ 7500 3650
 Connection ~ 7500 4500
-Text GLabel 8200 3650 2    60   Input ~ 0
-L_OUT+
-Text GLabel 8200 4100 2    60   Input ~ 0
-L_OUT-
-Text GLabel 8200 4500 2    60   Input ~ 0
-R_OUT+
-Text GLabel 8200 5000 2    60   Input ~ 0
-R_OUT-
 Wire Wire Line
 	8200 4500 8000 4500
 Connection ~ 7500 5000
@@ -392,9 +358,7 @@ F 3 "" H 7250 4150 50  0001 C CNN
 $EndComp
 Connection ~ 7250 4100
 Wire Wire Line
-	7250 5000 7500 5000
-Wire Wire Line
-	7500 5000 8200 5000
+	7250 5000 8200 5000
 Connection ~ 7250 5000
 Text GLabel 4350 4400 0    60   Input ~ 0
 G0
@@ -432,10 +396,8 @@ Wire Wire Line
 	5250 4950 5250 5100
 Wire Wire Line
 	5100 5100 5100 4950
-Text GLabel 3600 3600 0    60   Input ~ 0
-SHUTDOWN
 Wire Wire Line
-	3600 3600 4500 3600
+	2650 3600 4500 3600
 $Comp
 L +12V #PWR?
 U 1 1 596B57D0
@@ -492,13 +454,7 @@ F 3 "" H 3950 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 2150 3950 2200
-Wire Wire Line
-	3950 2200 3950 2250
-Wire Wire Line
-	3950 2250 3950 2350
-Wire Wire Line
-	3950 2350 3950 2400
+	3950 2150 3950 2400
 Wire Wire Line
 	4200 2150 4200 2250
 Wire Wire Line
@@ -510,13 +466,7 @@ Wire Wire Line
 	3700 2200 3950 2200
 Connection ~ 3950 2200
 Wire Wire Line
-	3950 1600 3950 1650
-Wire Wire Line
-	3950 1650 3950 1750
-Wire Wire Line
-	3950 1750 3950 1800
-Wire Wire Line
-	3950 1800 3950 1850
+	3950 1600 3950 1850
 Wire Wire Line
 	3700 1850 3700 1750
 Wire Wire Line
@@ -593,13 +543,7 @@ F 3 "" H 5350 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 2150 5350 2200
-Wire Wire Line
-	5350 2200 5350 2250
-Wire Wire Line
-	5350 2250 5350 2350
-Wire Wire Line
-	5350 2350 5350 2400
+	5350 2150 5350 2400
 Wire Wire Line
 	5600 2150 5600 2250
 Wire Wire Line
@@ -611,13 +555,7 @@ Wire Wire Line
 	5100 2200 5350 2200
 Connection ~ 5350 2200
 Wire Wire Line
-	5350 1600 5350 1650
-Wire Wire Line
-	5350 1650 5350 1750
-Wire Wire Line
-	5350 1750 5350 1800
-Wire Wire Line
-	5350 1800 5350 1850
+	5350 1600 5350 1850
 Wire Wire Line
 	5100 1850 5100 1750
 Wire Wire Line
@@ -683,13 +621,9 @@ F 3 "" H 6850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 1600 6650 1650
+	6650 1600 6650 1800
 Wire Wire Line
-	6650 1650 6650 1800
-Wire Wire Line
-	6400 1800 6650 1800
-Wire Wire Line
-	6650 1800 6850 1800
+	6400 1800 6850 1800
 Wire Wire Line
 	6400 1800 6400 1850
 Connection ~ 6650 1800
@@ -698,9 +632,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 2150 6400 2250
 Wire Wire Line
-	6400 2250 6650 2250
-Wire Wire Line
-	6650 2250 6850 2250
+	6400 2250 6850 2250
 Wire Wire Line
 	6650 2250 6650 2400
 Wire Wire Line
@@ -711,4 +643,88 @@ PWR
 Wire Wire Line
 	7050 1650 6650 1650
 Connection ~ 6650 1650
+$Comp
+L CONN_01X02_MALE J?
+U 1 1 596BDC3A
+P 2950 4000
+F 0 "J?" H 2950 4175 50  0000 C CNN
+F 1 "CONN_01X02_MALE" H 2950 3800 50  0000 C CNN
+F 2 "" H 2950 4100 50  0001 C CNN
+F 3 "" H 2950 4100 50  0001 C CNN
+	1    2950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3900 3600 3900
+Wire Wire Line
+	3250 4100 3600 4100
+Text Label 3300 3900 0    60   ~ 0
+L_IN
+Text Label 3300 4100 0    60   ~ 0
+R_IN
+$Comp
+L CONN_01X02_MALE J?
+U 1 1 596BE036
+P 2350 3700
+F 0 "J?" H 2350 3875 50  0000 C CNN
+F 1 "CONN_01X02_MALE" H 2350 3500 50  0000 C CNN
+F 2 "" H 2350 3800 50  0001 C CNN
+F 3 "" H 2350 3800 50  0001 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3750 2750 3800
+Wire Wire Line
+	2750 3800 2650 3800
+Text Label 3300 3600 0    60   ~ 0
+SHUTDOWN
+Text Label 3300 3750 0    60   ~ 0
+MUTE
+$Comp
+L CONN_01X02_MALE J?
+U 1 1 596BE42C
+P 9200 3850
+F 0 "J?" H 9200 4025 50  0000 C CNN
+F 1 "CONN_01X02_MALE" H 9200 3650 50  0000 C CNN
+F 2 "" H 9200 3950 50  0001 C CNN
+F 3 "" H 9200 3950 50  0001 C CNN
+	1    9200 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02_MALE J?
+U 1 1 596BE4E2
+P 9200 4750
+F 0 "J?" H 9200 4925 50  0000 C CNN
+F 1 "CONN_01X02_MALE" H 9200 4550 50  0000 C CNN
+F 2 "" H 9200 4850 50  0001 C CNN
+F 3 "" H 9200 4850 50  0001 C CNN
+	1    9200 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3650 8200 3750
+Wire Wire Line
+	8200 3750 8900 3750
+Wire Wire Line
+	8200 4100 8200 3950
+Wire Wire Line
+	8200 3950 8900 3950
+Text Label 8450 3750 0    60   ~ 0
+L_OUT+
+Text Label 8450 3950 0    60   ~ 0
+L_OUT-
+Wire Wire Line
+	8200 4500 8200 4650
+Wire Wire Line
+	8200 4650 8900 4650
+Wire Wire Line
+	8200 5000 8200 4850
+Wire Wire Line
+	8200 4850 8900 4850
+Text Label 8450 4650 0    60   ~ 0
+R_OUT+
+Text Label 8450 4850 0    60   ~ 0
+R_OUT-
 $EndSCHEMATC
